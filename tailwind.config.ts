@@ -9,10 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "footer-shadow": "url('/footer/shadow.png')",
+        "left-shadow": "url('/Services-details/leftShadow')",
+        "right-shadow": "url('/Services-details/right-shadow')",
       },
+    },
+    colors: {
+      btn_color: "#3CC5FF",
+      text_blue: "#A5C5E9",
+      card: "#122336",
+    },
+    fontSize: {
+      paragraph: "14px",
+      h4: "16px",
+      h3: "18px",
+      h2: "20px",
+      h1: "24px",
     },
   },
   plugins: [],
